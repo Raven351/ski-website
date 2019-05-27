@@ -10,7 +10,7 @@ class HomePage extends Component{
     render(){
         return(
             <>
-            <Image src = {require('./HomeBannerDark.png')} fluid = {"true"}/>
+            <Image src = {require('./HomeBannerDark.jpg')} fluid = {"true"}/>
             <Container fluid>
                 <Row>
                     <Col bsPrefix='col m-lg-auto'><AboutUs/></Col>

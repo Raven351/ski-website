@@ -1,11 +1,7 @@
 import React from 'react'
 import {
     Navbar,
-    Form,
-    FormControl,
-    Button,
     Nav,
-    Jumbotron,
     Container
 } from 'react-bootstrap';
 
@@ -19,7 +15,6 @@ const mainNavBar = props =>(
             <Nav className="mr-auto">
             <Nav.Link href="home">Strona główna</Nav.Link>
             <Nav.Link href="slopes">Nasze stoki</Nav.Link>
-            <Nav.Link href="rental">Wypożyczalnia</Nav.Link>
             <Nav.Link href="pricing">Ceny</Nav.Link>
             </Nav>      
         </Navbar.Collapse>

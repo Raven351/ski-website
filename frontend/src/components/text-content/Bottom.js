@@ -5,9 +5,11 @@ import {
     Row,
     Col
 } from 'react-bootstrap'
+import './Bottom.css'
 
 const bottom = props =>(
-    <Container fluid>    
+    <>
+    <Container fluid class = "footer">    
             <Jumbotron bsPrefix="jumbotron bg-dark text-white text-center mt-1">
                 <Row>
                     <Col bsPrefix="col m-lg-auto" md={6}>
@@ -24,7 +26,9 @@ const bottom = props =>(
                 </Row>              
             </Jumbotron>
     </Container>
-
+    </>
 )
+
+
 
 export default bottom;
